@@ -1,0 +1,27 @@
+caption {
+  caption-side: top;
+}
+
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+  display: block;
+}
+
+#flutter > ul > li {
+  line-height: 1.61em;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+body {
+  position: relative;
+}
+
+#frameworks-maquetacion, #frameworks-javascript-front {
+  padding-top: 70px;
+}
+
+.sidebar-collapse .navbar-collapse::before {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1379a8), color-stop(80%, #000));
+  background: linear-gradient(#1379a8 0%, #000 80%);
+}
+/*# sourceMappingURL=styles.css.map */
