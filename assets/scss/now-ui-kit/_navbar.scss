@@ -100,11 +100,11 @@
     }
 
     .navbar-brand{
-        text-transform: uppercase;
-        font-size: $font-size-small;
-        padding-top: $padding-base-vertical;
-        padding-bottom: $padding-base-vertical;
-        line-height: $line-height-nav-link;
+        text-transform: uppercase !important;
+        font-size: $font-size-small !important;
+        padding-top: $padding-base-vertical !important;
+        padding-bottom: $padding-base-vertical !important;
+        line-height: $line-height-nav-link !important;
     }
 
     .navbar-toggler{
