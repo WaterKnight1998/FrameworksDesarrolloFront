@@ -206,14 +206,14 @@
                 </caption>
                 <thead>
                   <tr>
-                    <th class="hide"></th>
-                    <th class="">Sass</th>
-                    <th class="">Less</th>
+                    <th class="hide" scope="col"></th>
+                    <th class="" scope="col">Sass</th>
+                    <th class="" scope="col">Less</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th>Sintaxis</th>
+                    <th scope="row">Sintaxis</th>
                     <td>
                       <ul>
                         <li>
@@ -268,7 +268,7 @@
                     <td>Usa sintaxis CSS dónde es posible, extendiéndola para añadir funcionalidad nueva.</td>
                   </tr>
                   <tr>
-                    <th>Variables</th>
+                    <th scope="row">Variables</th>
                     <td>El nombre de la variable se debe preceder de: “$”.br*<br><br>
                       Si sobreescribes una variable "global" localmente, la variable global toma el valor local.
                       <pre><code>
@@ -293,7 +293,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <th>Código anidado</th>
+                    <th scope="row">Código anidado</th>
                     <td>
                       Permite anidar código. <br><br>Además, permite anidar propiedades individuales.
                       Se puede apreciar en el siguiente ejemplo:
@@ -386,7 +386,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <th>Mixins</th>
+                    <th scope="row">Mixins</th>
                     <td>Para definirlo es necesario poner “@mixin” delante de la agrupación.
                       <pre><code>
                       @mixin border-radius ($values) {
@@ -418,7 +418,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <th>Importación</th>
+                    <th scope="row">Importación</th>
                     <td>@import “NombreFichero.extension”<br><br>
                       Si la extensión es scss o sass se puede suprimir.<br><br>
                       Permite importar de una URL e importar varios documentos separándolos con comas.
@@ -429,7 +429,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <th>Funciones de color</th>
+                    <th scope="row">Funciones de color</th>
                     <td>
                       <ul>
                         <li>adjust-color()- Modifica una o más propiedades de un color</li>
@@ -461,7 +461,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <th>Operaciones</th>
+                    <th scope="row">Operaciones</th>
                     <td>
                       Operaciones matemáticas como +, -, *, /, %, logaritmo, exponecial, raíz cuadrada, funciones
                       trigonométricas…<br><br>
@@ -599,38 +599,38 @@
                       <tbody>
                         <tr>
                           <th scope="row">View/Templating</th>
-                          <td><i class="now-ui-icons ui-1_check"></i></td>
-                          <td><i class="now-ui-icons ui-1_check"></i></td>
-                          <td><i class="now-ui-icons ui-1_check"></i></td>
-                          <td><i class="now-ui-icons ui-1_check"></i></td>
+                          <td><span class="now-ui-icons ui-1_check"></span></td>
+                          <td><span class="now-ui-icons ui-1_check"></span></td>
+                          <td><span class="now-ui-icons ui-1_check"></span></td>
+                          <td><span class="now-ui-icons ui-1_check"></span></td>
                         </tr>
                         <tr>
                           <th scope="row">Router</th>
-                          <td><i class="now-ui-icons ui-1_check"></i></td>
-                          <td><i class="now-ui-icons ui-1_check"></i></td>
-                          <td><i class="now-ui-icons ui-1_check"></i></td>
-                          <td><i class="now-ui-icons ui-1_check"></i></td>
+                          <td><span class="now-ui-icons ui-1_check"></span></td>
+                          <td><span class="now-ui-icons ui-1_check"></span></td>
+                          <td><span class="now-ui-icons ui-1_check"></span></td>
+                          <td><span class="now-ui-icons ui-1_check"></span></td>
                         </tr>
                         <tr>
                           <th scope="row">Form processing</th>
-                          <td><i class="now-ui-icons ui-1_check"></i></td>
+                          <td><span class="now-ui-icons ui-1_check"></span></td>
                           <td></td>
                           <td></td>
                           <td></td>
                         </tr>
                         <tr>
                           <th scope="row">Form validation</th>
-                          <td><i class="now-ui-icons ui-1_check"></i></td>
+                          <td><span class="now-ui-icons ui-1_check"></span></td>
                           <td></td>
                           <td></td>
-                          <td><i class="now-ui-icons ui-1_check"></i></td>
+                          <td><span class="now-ui-icons ui-1_check"></span></td>
                         </tr>
                         <tr>
                           <th scope="row">HTTP communication</th>
-                          <td><i class="now-ui-icons ui-1_check"></i></td>
+                          <td><span class="now-ui-icons ui-1_check"></span></td>
                           <td></td>
                           <td></td>
-                          <td><i class="now-ui-icons ui-1_check"></i></td>
+                          <td><span class="now-ui-icons ui-1_check"></span></td>
                         </tr>
                       </tbody>
                     </table>
