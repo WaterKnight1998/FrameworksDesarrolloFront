@@ -4612,11 +4612,11 @@ Created using IcoMoon - icomoon.io
 }
 
 .navbar .navbar-brand {
-  text-transform: uppercase;
-  font-size: 0.8571em;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  line-height: 1.625rem;
+  text-transform: uppercase !important;
+  font-size: 0.8571em !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  line-height: 1.625rem !important;
 }
 
 .navbar .navbar-toggler {
